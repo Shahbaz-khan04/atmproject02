@@ -1,3 +1,3 @@
 # atm-project02
 
-npm command
+npm command = npx proj2atm
