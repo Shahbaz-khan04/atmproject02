@@ -1,10 +1,12 @@
 {
   "name": "proj2atm",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm command",
   "main": "index.js",
   "type": "module",
-  "bin": "",
+  "bin": {
+    "proj2atm-ts": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +20,13 @@
   "devDependencies": {
     "@types/chalk": "^2.2.0",
     "@types/inquirer": "^9.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shahbaz-khan04/atmproject02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shahbaz-khan04/atmproject02/issues"
+  },
+  "homepage": "https://github.com/Shahbaz-khan04/atmproject02#readme"
 }
